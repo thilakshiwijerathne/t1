@@ -20,7 +20,7 @@ h1::before{
   left:0;
   width: 120%;
   height: 100%;
-  background:linear-gradient(90deg,transparent 0%,#000 5%,#000 100%) ;
+  background:linear-gradient(90deg,transparent 0%,#ede2e2 5%,#7c7676 100%) ;
   animation: animate 5.5s linear forwards;
   animation-delay: 2s;
 }
@@ -47,7 +47,7 @@ h1 {
   margin: 0;
   font-size: 4rem;
   font-weight: 900;
-  color: #0d0202;
+  color: #dad7d7;
   z-index: 1;
   overflow: hidden;
 }
@@ -281,6 +281,7 @@ video {
   background-color: #e9d3d3;
   margin: 8px;
   border-collapse: collapse;
+  background-image: none;
 }
 
 .part1 .p1 img {
