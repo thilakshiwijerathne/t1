@@ -3,6 +3,7 @@
   margin: auto;
   font-size: 20px;
   
+  
 }
 
 .part1 h1{
@@ -14,16 +15,7 @@
   z-index:1;
   overflow: hidden;
 }
-h1::before{
-  content: '';
-  position: absolute;
-  left:0;
-  width: 120%;
-  height: 100%;
-  background:linear-gradient(90deg,transparent 0%,#ede2e2 5%,#7c7676 100%) ;
-  animation: animate 5.5s linear forwards;
-  animation-delay: 2s;
-}
+
 @keyframes animate{
   0%{
     left:110%
@@ -33,33 +25,20 @@ h1::before{
   }
 }
 
-h1 span{
-  color: #ab320a;
-}
-.Home {
-  width: 90%;
-  margin: auto;
-  font-size: 20px;
+.part1 h1 span{
+  color: #e4dcd9;
 }
 
-h1 {
-  position: relative;
-  margin: 0;
-  font-size: 4rem;
-  font-weight: 900;
-  color: #dad7d7;
-  z-index: 1;
-  overflow: hidden;
-}
+
 
 h1::before {
   content: '';
   position: absolute;
-  top: 0;
+  top:0;
   left: 0;
   width: 120%;
   height: 100%;
-  background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
+  background: linear-gradient(90deg, transparent 0, #000 5%, #000 100%);
   animation: animate 2.5s linear forwards;
   animation-delay: 2s;
   z-index: -1;
@@ -78,17 +57,20 @@ h1 span {
   color: #f8f6f5;
 }
 
-video {
+.part1 video {
+  
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: 2;
+  z-index: -5;
   pointer-events: none;
   mix-blend-mode: screen;
 }
+
+
 
 .part1 .p1 img {
   max-width: 100%;
@@ -281,7 +263,7 @@ video {
   background-color: #e9d3d3;
   margin: 8px;
   border-collapse: collapse;
-  background-image: none;
+  
 }
 
 .part1 .p1 img {

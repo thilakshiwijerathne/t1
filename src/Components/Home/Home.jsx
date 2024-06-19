@@ -9,6 +9,8 @@ import wapp from '../Assets/icons8-whatsapp.gif';
 import utube from '../Assets/icons8-youtube.gif';
 import tw from '../Assets/icons8-twitter-circled.gif';
 import './Home.css'; 
+//import videoSrc from '../Assets/particles.mp4';
+
 
 function Home() {
   return (
@@ -18,7 +20,8 @@ function Home() {
           <img src={pic1} alt='Fashion' />
         </div>
         <div className="p2 ">
-          <video src="particles.mp4" muted='' autoPlay=''></video>
+          <video src="particles.mp4"  muted=" " autoPlay="" ></video>
+          {/* <video src={videoSrc} muted autoPlay loop></video> */}
           <h1><span>Fashion Industry Overview</span></h1>
           <br />
           <p className='typed'>Any brand that is involved in the fashion business is referred to as a "fashion brand" or "fashion label.” To be successful in the market, a fashion brand must differentiate itself from the competition and manage its supply chain.</p>
